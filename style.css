@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import  url( 'https://fonts.googleapis.com/css2?family=Acme&display=swap' );
+
+*{
+	margin: 0;
+	border:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+/*NAVEGADOR*/
+.nav{
+    background-color:#040F4A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:4% 6%;
+   
+}
+
+.nav img{
+    max-width:600px;
+    width: 100%;
+    margin: auto;
+    }
+    
+    
+.navar a{
+    color:red;
+    text-decoration: none;
+    font-size:28px;
+    
+    }
+
+.navar a:hover{
+        color:#FFFFFF;
+        
+        }
+
+.navar{
+    margin-top:20px; ;
+    display: flex;
+    justify-content: space-between;
+}
+.consultaDeVuelo{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.consultaDeVuelo label{
+    color:red;
+    font-size:26px;
+    margin-bottom:8px;
+}
+
+.ContainerPromociones{
+    padding: 40px 60px;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.card-img-top{
+    max-width: 400px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.footer{
+    background-color:#040F4A;
+    padding:30px;
+    
+}
+.contactenos{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contactenos li {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+
